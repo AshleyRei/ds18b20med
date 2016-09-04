@@ -151,7 +151,7 @@ for (int x = 0; x <_letture; x++) {
 	tempCalc = tempCalc + som;
          delay (_sLoop);
 	}
-  tempCalc =( (tempCalc -M1-M2-m1-m2)/(_letture-4)+5)/10;
+  tempCalc =( (tempCalc -(M1+M2+m1+m2))/(_letture-4)+5)/10;
         
 return (tempCalc);
 }
